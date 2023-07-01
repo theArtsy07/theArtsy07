@@ -149,6 +149,11 @@ img.banner-photo {
 .new-arrivals-button:hover {
   background-color: #591449;
 }
+@media screen and (max-width: 800px) {
+  .left, .main, .right {
+    width: 50%; /* The width is 100%, when the viewport is 800px or smaller */
+  }
+}
 
 
 
